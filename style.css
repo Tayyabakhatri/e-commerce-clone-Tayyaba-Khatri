@@ -42,3 +42,11 @@ color: #56cfe1;
 background-color: #56cfe1;
 color: white;
 }
+
+/* anchors */
+#a{
+    color: black;
+}
+#a:hover{
+color: #56cfe1;
+}
