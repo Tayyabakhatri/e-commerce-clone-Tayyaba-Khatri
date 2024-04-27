@@ -1,3 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --admin-panel-background:#e7f1f3;
+    --col-bg:#f3f3f3;
+}
+
 .button{
     background-color: black;
     width: 100%;
@@ -49,4 +58,10 @@ color: white;
 }
 #a:hover{
 color: #56cfe1;
+}
+.admin-panel{
+background-color: var(--admin-panel-background);
+}
+.col-bg{
+    background-color: var(--col-bg);
 }
