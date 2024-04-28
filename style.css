@@ -65,3 +65,6 @@ background-color: var(--admin-panel-background);
 .col-bg{
     background-color: var(--col-bg);
 }
+.optamizer{
+    background-color: var(--admin-panel-background);
+}
