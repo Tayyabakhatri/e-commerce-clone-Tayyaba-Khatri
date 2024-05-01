@@ -19,6 +19,8 @@ html{
     background-image: url(images/maxresdefault.jpg);
   
     height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
 }
@@ -31,7 +33,7 @@ html{
     }
   }
   
-.ani-card{
+.ani-card {
    
     
 
@@ -52,6 +54,14 @@ html{
     transform: rotatey(150deg);
      */
 }
+.parallax{
+    background-image: url(images/maxresdefault.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
     
 
@@ -61,27 +71,27 @@ html{
 .ul:hover{
     text-decoration: underline;
 }
-.im:hover{
-  /* opacity: 0.7; */
-    background-image: url(images/ahead_icon_1.png);
-    filter: blur(2px);
-}
+
 .ct:hover{
     color: #56cfe1;
 }
 .im{
  filter: saturate(1.5);  
  filter: drop-shadow(4px 4px 10px gray);
+ transition: transform 0.3s ease;
+}
+.im:hover{
+    transform: scale(1.1);
 }
 
 /* cards */
 .cards{
-    background-color: #e7f1f3;
-
-}
-.fb{
+   
+   
     background-color: #f3f3f3;
+   
 }
+
 /* buttons */
 #bt1:hover{
 background-color: transparent;
@@ -136,9 +146,3 @@ to{transform: translatey(800px);}
       transform: rotatey(360deg);
     }
   }
-  /* .mask {
-    -webkit-mask-image: url(images/onepage.jpg);
-    mask-image: url(images/onepage.jpg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-  } */
